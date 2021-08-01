@@ -1,4 +1,4 @@
-# Scrapbook
+# Scrapbook Made Using Android Studio
 
 This is an app that displayed a collage of three famous landmarks images found online and using text to label those images.
 
