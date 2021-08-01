@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <GridLayout android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        android:rowCount="3"
+        tools:context=".GridXMLActivity">
+
+
+        <Button
+            android:id="@+id/Button1"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:background="@drawable/goldengate"
+            android:backgroundTint="@null"
+            android:text="Golden Gate Bridge"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="?android:attr/textColorTertiaryInverse"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="48sp" />
+
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:background="@drawable/statue"
+            android:text="Statue of Liberty"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="?android:attr/textColorTertiaryInverse"
+            android:textSize="48sp" />
+
+
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:background="@drawable/mountrushmore"
+            android:text="Mount Rushmore"
+            android:textAlignment="center"
+            android:textColor="?android:attr/textColorTertiaryInverse"
+            android:textSize="48sp" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
